@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -14,8 +13,8 @@ body {
     top: 0;
     left: 0;
     z-index: 100;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -23,7 +22,7 @@ body {
     width: 100%;
     position: fixed;
     background: #2ddf5c;
-    padding: 8px 16px;
+    padding: 0.6rem 1rem;
     top: 0;
     left: 0;
     z-index: 1;
@@ -38,8 +37,8 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
-    height: 24px;
+    font-size: 1.2rem;
+    height: 1.3rem;
     display: inline-block;
 }
 
@@ -62,7 +61,7 @@ body {
 
 .main-nav__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-nav__item a {
@@ -81,7 +80,7 @@ body {
 .main-nav__item--cta a {
     color: white;
     background: #ff1b68;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
 }
 
@@ -98,7 +97,7 @@ body {
     color: white;
     font: inherit;
     border: 1px solid #0e4f1f;
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
@@ -118,8 +117,8 @@ body {
 .main-footer {
     background: black;
     color: white;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -131,7 +130,7 @@ body {
 
 .main-footer__link {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-footer__link a {
